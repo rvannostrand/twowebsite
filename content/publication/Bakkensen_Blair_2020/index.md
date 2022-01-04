@@ -17,7 +17,6 @@ date: "2015-09-01T00:00:00Z"
 doi: ""
 featured: false
 
-projects: []
 publication: '*Joural of Awesome, 1*(1)'
 publication_short: ""
 publication_types:
@@ -30,7 +29,7 @@ tags:
 title: test
 url_code: ""
 url_dataset: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_Access: http://arxiv.org/pdf/1512.04133v1
 url_poster: ""
 url_project: ""
 url_slides: ""
