@@ -4,7 +4,7 @@ education:
   courses:
   - course: PhD Candidate in Public Policy
     institution: University of Arizona
-    year: 2018 - 2023
+    year: 2018 - Current
   - course: MS Natural Resource Management
     institution: Central Washington University
     year: 2015
@@ -15,6 +15,8 @@ email: blairlo@email.arizona.edu
 highlight_name: true
 interests:
 - Natural Disaster Resilience
+- Public-Private Contracting
+- Agency Performance
 - Causal Inference
 - Remote Sensing and GIS
 organizations:

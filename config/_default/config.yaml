@@ -1,12 +1,7 @@
 theme: "starter-hugo-academic"
-# Configuration of Hugo
-# Guide: https://wowchemy.com/docs/getting-started/
-# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
 title: Logan Blair # Website name
-baseurl: 'https://loganblair.netlify.app/' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+baseurl: 'https://loganblair.netlify.app/' 
+copyright = "" # set to override the auto generated copyright using org info and now year
 
 ############################
 ## LANGUAGE
