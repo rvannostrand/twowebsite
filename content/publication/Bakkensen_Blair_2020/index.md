@@ -13,13 +13,11 @@ author_notes:
 authors:
 - Laura Bakkensen
 - admin
-date: "2015-09-01T00:00:00Z"
+date: "2020"
 doi: ""
 featured: false
 
-publication: '*Joural of Awesome, 1*(1)'
-
-publishDate: "2017-01-01T00:00:00Z"
+publication: 'Oxford Research Encyclopedia of Politics'
 
 title: test
 url_code: ""
