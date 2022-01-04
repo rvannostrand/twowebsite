@@ -24,15 +24,14 @@ publication_types:
 
 publishDate: "2017-01-01T00:00:00Z"
 
-tags:
-- Source Themes
+
 title: test
 url_code: ""
 url_dataset: ""
-url_Access: http://arxiv.org/pdf/1512.04133v1
+url_pdf: http://arxiv.org/pdf/1512.04133v1
 url_poster: ""
 url_project: ""
 url_slides: ""
-url_source: ""
+url_source: http://arxiv.org/pdf/1512.04133v1
 url_video: ""
 ---
