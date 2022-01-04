@@ -1,7 +1,9 @@
 theme: "starter-hugo-academic"
+
+
 title: Logan Blair # Website name
-baseurl: 'https://loganblair.netlify.app/' 
-copyright = "" # set to override the auto generated copyright using org info and now year
+baseurl: 'https://loganblair.netlify.app/' # Website URL
+copyright: '' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
