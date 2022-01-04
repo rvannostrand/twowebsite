@@ -1,6 +1,8 @@
 ---
 # An instance of the Blank widget.
 # Documentation: https://wowchemy.com/docs/getting-started/page-builder/
+active: false
+
 widget: blank
 
 # Activate this widget? true/false
