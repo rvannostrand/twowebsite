@@ -13,9 +13,9 @@ featured: false
 
 publication: '*Oxford Research Encyclopedia of Politics*'
 
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2020-01-01T00:00:00Z"
 
-title: Flood Damage Assessments: Theory and Evidence From the United States
+title: "Flood damage assessments: Theory and evidence from the United States"
 url_code: ""
 url_dataset: ""
 url_pdf: http://arxiv.org/pdf/1512.04133v1
