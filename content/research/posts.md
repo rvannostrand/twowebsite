@@ -11,7 +11,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 60
 
-title: Recent Projects and Data
+title: Working Papers, Projects, and Data
 subtitle:
 
 content:
