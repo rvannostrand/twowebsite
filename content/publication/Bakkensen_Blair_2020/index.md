@@ -18,7 +18,7 @@ publishDate: "2020-01-01T00:00:00Z"
 title: "Flood damage assessments: Theory and evidence from the United States"
 url_code: ""
 url_dataset: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: https://oxfordre.com/view/10.1093/acrefore/9780190228637.001.0001/acrefore-9780190228637-e-1548
 url_poster: ""
 url_project: ""
 url_slides: ""
