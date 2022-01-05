@@ -15,7 +15,7 @@ publication: '*Academic Press (forthcomming)*'
 
 publishDate: "2021-01-01T00:00:00Z"
 
-title: "The Economics of Tropical Cyclone Adaptation”
+title: The Economics of Tropical Cyclone Adaptation
 url_code: ""
 url_dataset: ""
 url_pdf: ""
