@@ -1,0 +1,106 @@
+---
+authors:
+- admin
+categories: []
+date: "2021-02-05T00:00:00Z"
+image:
+  caption: ""
+  focal_point: ""
+lastMod: "2021-09-05T00:00:00Z"
+projects: []
+subtitle: ''
+summary: ''
+tags: []
+title: Funtion to Extract Planet Labs Data by Parcel in R
+weight: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Prelims
+```{r}
+library(tmap) 
+library(mapview)
+library(sf)
+library(raster)
+library(stringr)
+library(questionr)
+library(dplyr)
+library(rgdal)
+library(rgeos)
+
+memory.limit(size=100000) #forget everything else you have running
+```
+
+
+##Single image example
+
+Note that this requires 2 files in your root directory: 1.) 1 or many Planet labs products and a shapefile representing some sort of administrative boundary (Parcels, Census Blocks, Counties etc.).
+
+```{r eval=FALSE, include=TRUE}
+PlanetImage<- stack("Data/10_12_2018_PSScene4Band_Explorer/files/20181012_154650_1_104a_3B_AnalyticMS_SR_clip.tif") #Upload 4band Image
+PlanetImage
+
+ndvi <- (PlanetImage[[4]] - PlanetImage[[1]])/(PlanetImage[[4]] + PlanetImage[[1]]) #make NDVI
+
+tmap_mode("view")
+
+tm_shape(ndvi) + 
+  tm_raster() #Plot simple NDVI
+```
+
+
+##Extract Average Index value from Multiple Images by Parcel as Function
+```{r eval=FALSE, include=TRUE}
+PlanetToNDVI<-function(ImageLocation,FileOutput,ImageDate,AssetType,UOA){
+  
+  current.list <- list.files(path=paste(ImageLocation,ImageDate,"_",AssetType,"_Explorer/files/",  sep =""),
+     pattern ="SR_clip.tif$", 
+     full.names=TRUE)
+
+images<- lapply(current.list, stack)
+
+imageMosaic<-mosaic(images[[1]],images[[2]], fun=mean) # unhash for n number of images in study area. Alternatively write a loop...
+#imageMosaic<-mosaic(imageMosaic,images[[3]], fun=mean)
+#imageMosaic<-mosaic(imageMosaic,images[[4]], fun=mean)
+#imageMosaic<-mosaic(imageMosaic,images[[5]], fun=mean)
+#imageMosaic<-mosaic(imageMosaic,images[[6]], fun=mean)
+#imageMosaic<-mosaic(imageMosaic,images[[7]], fun=mean)
+#imageMosaic<-mosaic(imageMosaic,images[[8]], fun=mean)
+  
+ndvi <- (imageMosaic[[4]] - imageMosaic[[3]])/(imageMosaic[[4]] + imageMosaic[[3]])
+
+Parcels = read_sf(UOA) #Load in its of analysis shapefile and reproject image coordinate system
+Parcels<-st_transform(Parcels, crs(imageMosaic))
+
+
+ndvi[ndvi < 0.2] <- NA #mask off index below threshold to try and omit roof, driveway etc. Consider deriving threshold from ML algo at some point...
+
+ex <- extract(ndvi, 
+    Parcels, 
+    fun=mean,
+    na.rm=TRUE,
+    df=TRUE)
+
+ex$GlobalID <-Parcels$GlobalID
+
+names(ex)[2] <- ImageDate
+
+write.csv(ex, paste(FileOutput,ImageDate,".csv", sep=""))
+
+}
+
+```
+
+##Run Function
+```{r eval=FALSE, include=TRUE}
+PlanetToNDVI("Data/",
+             "Ouputs/",
+             "10_12_2018", 
+             "PSScene4Band",
+             "ParcelAOI.shp")
+
+```
+

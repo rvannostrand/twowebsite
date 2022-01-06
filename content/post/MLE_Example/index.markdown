@@ -21,7 +21,7 @@ weight: 2
 
 
 
-### 1a. What is difference between OLS and MLE? Give an example.
+### What is difference between OLS and MLE?.
 
 OLS and MLE both estimate a model made up of parameter estimates that describes the relationship between two or more variables. Most of time we are interested in a point estimates, or the mean impacts of some random variable X on outcome Y in the population, and the uncertainty around its mean (often referred to as  Greek betas, sigma, etc.). A fundamental problem for all model estimates and methods of deriving them is that the population cannot be fully observed in most cases. If it were, statistical methods would not be needed. Estimates, regardless of how they were derived, instead approximate relationships in the population using samples.
 
@@ -166,7 +166,7 @@ summary(MaxLike) #Report the value alpha, beta, and sigma that maximized the pro
 ## -2 log L: 8785.09
 ```
 
-### 1b. When might you use MLE instead of OLS?
+### When might you use MLE?
 
 Note that the parameters found by OLS and ML approximately found the same values even though they are fundamentally different techniques. This is because the the assumption of the OLS model were written directly into the ML function. In this way the technique you use is irrelevant. The better question is whether the assumptions hold that make OLS or it's ML counterpart the best linear unbiased estimator ("BLUE") of the population its drawn from. That is:
 
