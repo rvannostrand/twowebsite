@@ -17,7 +17,7 @@ image:
 projects: []
 ---
 
-Download this {{< staticref "static/Bakkensen_and_Blair_SEA_2022.pdf" "newtab" >}}Paper{{< /staticref >}}.
+Download this {{< staticref "static/Bakkensen_and_Blair_SEA_2022.pdf" "newtab" >}}paper{{< /staticref >}}.
 
 ```{r}
 library(ggplot2)
