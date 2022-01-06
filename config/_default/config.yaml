@@ -2,7 +2,7 @@ theme: "starter-hugo-academic"
 
 
 title: Logan Blair # Website name
-baseurl: 'https://loganblair.netlify.app/' # Website URL
+baseurl: 'www.logan-blair.com' # Website URL
 copyright: 'Built in R Blogdown, Logan Blair © {year}'
 
 ############################
