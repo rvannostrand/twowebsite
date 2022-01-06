@@ -1,7 +1,6 @@
 
 ---
 authors:
-- Laura Bakkensen
 - admin
 categories: []
 date: "2021-02-05T00:00:00Z"
@@ -13,9 +12,13 @@ projects: []
 subtitle: ''
 summary: ''
 tags: []
-title: Wind Code Effectiveness and Externalities Evidence from Hurricane Michael
+title: Environmental Policy 481 (Universtiy of Arizona)
 weight: 1
 ---
 
-{{< icon name="download" pack="fas" >}} Download this {{< staticref "https://www.dropbox.com/s/fa9qc1e6kmqshkp/16_PA%20481_Blair_Intro%20to%20PA%20481_default.mp4?dl=0" "newtab" >}}paper{{< /staticref >}}
+This course focuses on policies and approaches used to protect and improve environmental quality in the United States. After an introductory unit, we spend the majority of our time exploring four major approaches to environmental policy: command and control regulations; market-based instruments; collaborative and community-based governance; voluntary instruments; information as environmental policy; and issues in climate change mitigation and adaptation. Our exploration is both theoretical and practical. Throughout the course, we will consider the role of a range of governmental agencies, non-governmental organizations, citizens and communities, and private sector businesses that are involved in developing, implementing, and enforcing environmental policies.
+
+{{< icon name="download" pack="fas" >}} Feel Free to download the {{< staticref "uploads/Syllabus_PA481_Summer_2021.pdf" "newtab" >}}course syllabus{{< /staticref >}}
+
+Or check out a few of my recorded lectures on {{< staticref "https://www.dropbox.com/s/3l2loy23p6pp48z/31_PA%20481_Blair_Climate%20Change%20101_default.mp4?dl=0" "newtab" >}} Climate Change 101 {{< /staticref >}}, {{< staticref "https://www.dropbox.com/s/uqtmb2rnrjv5y0i/32_PA%20481_Blair_Climate%20Change%20Mitigation%20Policy_default.mp4?dl=0" "newtab" >}} Mitigation {{< /staticref >}}, {{< staticref "https://www.dropbox.com/s/xsygl3qkh4en4lb/33_PA%20481_Blair_Climate%20Adaptation%20Policy_default.mp4?dl=0" "newtab" >}} and Adaptation{{< /staticref >}}
 
