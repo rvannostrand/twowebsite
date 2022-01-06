@@ -19,6 +19,8 @@ projects: []
 
 Download this {{< staticref "2022-01-my-first-post/Bakkensen_and_Blair_SEA_2022.pdf" "newtab" >}}paper{{< /staticref >}}.
 
+static/2022-01-my-first-post/Bakkensen_and_Blair_SEA_2022.pdf
+
 ```{r}
 library(ggplot2)
 
