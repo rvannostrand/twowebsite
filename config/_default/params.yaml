@@ -2,10 +2,10 @@
 
 # Appearance
 
-theme: earth
+theme: minimal
 day_night: true
 font: minimal
-font_size: M
+font_size: L
 
 # SEO
 
