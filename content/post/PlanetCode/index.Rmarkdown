@@ -15,6 +15,10 @@ title: Funtion to Extract Planet Labs Data by Parcel in R
 weight: 3
 ---
 
+The follow code can be copied into R and ran as the function "PlanetToNDVI". You can change the band math and function name to produce any index you wish, or a single band. The output is a data frame representing administrative boundaries and a column containing the average index values from Planet Labs data. Note that this requires 2 files in your root directory: 1.) 1 or many Planet labs products and a shapefile representing some sort of administrative boundary (Parcels, Census Blocks, Counties etc.).
+
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -34,10 +38,7 @@ library(rgeos)
 memory.limit(size=100000) #forget everything else you have running
 ```
 
-
 ##Single image example
-
-Note that this requires 2 files in your root directory: 1.) 1 or many Planet labs products and a shapefile representing some sort of administrative boundary (Parcels, Census Blocks, Counties etc.).
 
 ```{r eval=FALSE, include=TRUE}
 PlanetImage<- stack("Data/10_12_2018_PSScene4Band_Explorer/files/20181012_154650_1_104a_3B_AnalyticMS_SR_clip.tif") #Upload 4band Image
