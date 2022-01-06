@@ -16,9 +16,9 @@ title: AKLNG Resource Report 5 (Socioeconomics)
 weight: 1
 ---
 
-{{< icon name="download" pack="fas" >}} Download this {{< staticref "uploads/Alaska-LNG-RR5_041417_public.pdf" "newtab" >}}paper. {{< /staticref >}}
+{{< icon name="download" pack="fas" >}} Download the {{< staticref "uploads/Alaska-LNG-RR5_041417_public.pdf" "newtab" >}}report. {{< /staticref >}}
 
-{{< icon name="download" pack="fas" >}} Download this {{< staticref "uploads/Alaska-LNG-RR5-AppxB_041417_public.pdf" "newtab" >}}paper. {{< /staticref >}}
+{{< icon name="download" pack="fas" >}} Or, the {{< staticref "uploads/Alaska-LNG-RR5-AppxB_041417_public.pdf" "newtab" >}}Technical appendix. {{< /staticref >}}
 
 
 The Alaska Gasline Development Corporation (Applicant) plans to construct one integrated liquefied
@@ -33,6 +33,6 @@ Specific areas addressed include the following topics: population, employment, h
 construction payroll and material purchase, tax revenue, land use, transportation and traffic management,
 subsistence, and health impacts. 
 
-I supported demographic modeling (see radiation models in appendix 5) and related fiscal impacts analysis and timber valuation, along with spatial analysis and mapping.
+I supported demographic modeling (see radiation models in appendix 5), related fiscal impacts analysis, and timber valuation, along with spatial analysis and mapping.
 
 

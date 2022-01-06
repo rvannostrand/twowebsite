@@ -9,7 +9,7 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 60
+weight: 20
 
 title: Working Papers, Projects, and Data
 subtitle:
