@@ -10,7 +10,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 10
 
-title: Publications
+title: Peer Reviewed Publications
 subtitle: ''
 
 content:
