@@ -12,7 +12,7 @@ subtitle: ''
 summary: ''
 tags: []
 title: Funtion to Extract Planet Labs Data by Parcel in R
-weight: 3
+weight: 2
 ---
 
 The follow code can be copied into R and ran as the function "PlanetToNDVI". You can change the band math and function name to produce any index you wish, or a single band. The output is a data frame representing administrative boundaries and a column containing the average index values from Planet Labs data. Note that this requires 2 files in your root directory: 1.) 1 or many Planet labs products and a shapefile representing some sort of administrative boundary (Parcels, Census Blocks, Counties etc.).
