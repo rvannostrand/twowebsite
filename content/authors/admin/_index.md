@@ -47,4 +47,4 @@ title: Logan Blair
 
 I am a PhD candidate, researcher, and instructor at the school of Government and Public Policy at the University of Arizona, and previously a consultant at the natural resource consulting firm Northern Economics. My research is broadly focused on natural disaster adaptation and resilience, with a current focus on US hurricane policy and emergency management performance. My work transects the fields of economics, public administration, and physical geography, and often leverages remote sensing and machine learning techniques that you can read more about in my {{< staticref "/research" >}}Research Section{{< /staticref >}}. Outside of work, you can find me hiking, biking, and camping in the Tucson mountains, or cooking (badly) on my trailer-mounted wood fired oven.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download my CV{{< /staticref >}}.
