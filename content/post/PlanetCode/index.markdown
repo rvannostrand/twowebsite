@@ -20,7 +20,7 @@ The follow code can be copied into R and ran as the function "PlanetToNDVI". You
 
 
 
-##Prelims
+###**Prelims**
 
 ```r
 library(tmap) 
@@ -40,8 +40,7 @@ memory.limit(size=100000) #forget everything else you have running
 ## [1] 1e+05
 ```
 
-##Single image example
-
+###**Single image example**
 
 ```r
 PlanetImage<- stack("Data/10_12_2018_PSScene4Band_Explorer/files/20181012_154650_1_104a_3B_AnalyticMS_SR_clip.tif") #Upload 4band Image
@@ -56,7 +55,7 @@ tm_shape(ndvi) +
 ```
 
 
-##Extract Average Index value from Multiple Images by Parcel as Function
+###**Extract Average Index Value by Parcel as Function**
 
 ```r
 PlanetToNDVI<-function(ImageLocation,FileOutput,ImageDate,AssetType,UOA){
@@ -98,7 +97,7 @@ write.csv(ex, paste(FileOutput,ImageDate,".csv", sep=""))
 }
 ```
 
-##Run Function
+### **Run Function**
 
 ```r
 PlanetToNDVI("Data/",

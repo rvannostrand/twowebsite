@@ -21,7 +21,7 @@ weight: 2
 
 
 
-### What is difference between OLS and MLE?.
+### What is difference between OLS and MLE?
 
 OLS and MLE both estimate a model made up of parameter estimates that describes the relationship between two or more variables. Most of time we are interested in a point estimates, or the mean impacts of some random variable X on outcome Y in the population, and the uncertainty around its mean (often referred to as  Greek betas, sigma, etc.). A fundamental problem for all model estimates and methods of deriving them is that the population cannot be fully observed in most cases. If it were, statistical methods would not be needed. Estimates, regardless of how they were derived, instead approximate relationships in the population using samples.
 
