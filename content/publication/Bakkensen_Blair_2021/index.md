@@ -11,7 +11,7 @@ date: "2021-09-01T00:00:00Z"
 doi: ""
 featured: false
 
-publication: '*Academic Press (forthcomming)*'
+publication: '*Academic Press (forthcoming)*'
 
 publishDate: "2021-01-01T00:00:00Z"
 
