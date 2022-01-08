@@ -11,7 +11,7 @@ projects: []
 subtitle: ''
 summary: ''
 tags: []
-title: Funtion to Extract Planet Labs Data by Parcel in R
+title: Function to Extract Planet Labs Data by Parcel in R
 weight: 2
 ---
 

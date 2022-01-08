@@ -12,7 +12,7 @@ projects: []
 subtitle: ''
 summary: ''
 tags: []
-title: Environmental Policy 481 (Universtiy of Arizona)
+title: Environmental Policy 481 (University of Arizona)
 weight: 1
 ---
 
