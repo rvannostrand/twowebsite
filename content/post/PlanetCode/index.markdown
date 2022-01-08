@@ -26,101 +26,13 @@ The follow code can be copied into R and ran as the function "PlanetToNDVI". You
 library(tmap) 
 library(mapview)
 library(sf)
-```
-
-```
-## Linking to GEOS 3.9.1, GDAL 3.2.1, PROJ 7.2.1; sf_use_s2() is TRUE
-```
-
-```r
 library(raster)
-```
-
-```
-## Loading required package: sp
-```
-
-```r
 library(stringr)
 library(questionr)
-```
-
-```
-## 
-## Attaching package: 'questionr'
-```
-
-```
-## The following object is masked from 'package:raster':
-## 
-##     freq
-```
-
-```r
 library(dplyr)
-```
-
-```
-## 
-## Attaching package: 'dplyr'
-```
-
-```
-## The following objects are masked from 'package:raster':
-## 
-##     intersect, select, union
-```
-
-```
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-```
-
-```
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
 library(rgdal)
-```
-
-```
-## Please note that rgdal will be retired by the end of 2023,
-## plan transition to sf/stars/terra functions using GDAL and PROJ
-## at your earliest convenience.
-## 
-## rgdal: version: 1.5-28, (SVN revision 1158)
-## Geospatial Data Abstraction Library extensions to R successfully loaded
-## Loaded GDAL runtime: GDAL 3.2.1, released 2020/12/29
-## Path to GDAL shared files: C:/Users/blair/OneDrive/Documents/R/win-library/4.1/rgdal/gdal
-## GDAL binary built with GEOS: TRUE 
-## Loaded PROJ runtime: Rel. 7.2.1, January 1st, 2021, [PJ_VERSION: 721]
-## Path to PROJ shared files: C:/Users/blair/OneDrive/Documents/R/win-library/4.1/rgdal/proj
-## PROJ CDN enabled: FALSE
-## Linking to sp version:1.4-6
-## To mute warnings of possible GDAL/OSR exportToProj4() degradation,
-## use options("rgdal_show_exportToProj4_warnings"="none") before loading sp or rgdal.
-## Overwritten PROJ_LIB was C:/Users/blair/OneDrive/Documents/R/win-library/4.1/rgdal/proj
-```
-
-```r
 library(rgeos)
-```
 
-```
-## rgeos version: 0.5-9, (SVN revision 684)
-##  GEOS runtime version: 3.9.1-CAPI-1.14.2 
-##  Please note that rgeos will be retired by the end of 2023,
-## plan transition to sf functions using GEOS at your earliest convenience.
-##  GEOS using OverlayNG
-##  Linking to sp version: 1.4-6 
-##  Polygon checking: TRUE
-```
-
-```r
 memory.limit(size=100000) #forget everything else you have running
 ```
 

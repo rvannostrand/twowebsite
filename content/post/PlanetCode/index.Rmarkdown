@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ##Prelims
-```{r}
+```{r message=FALSE, warning=FALSE}
 library(tmap) 
 library(mapview)
 library(sf)
