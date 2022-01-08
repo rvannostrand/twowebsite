@@ -16,7 +16,7 @@ title: Assessment of the Proposed Force Reduction of the 4-25th Airborne Brigade
 weight: 1
 ---
 
-{{< icon name="download" pack="fas" >}} Download this {{< staticref "uploads/JBER_Report.pdf" "newtab" >}}paper{{< /staticref >}}
+{{< icon name="download" pack="fas" >}} Download this {{< staticref "https://www.muni.org/Departments/Mayor/Documents/JBER%20Final%20Report.pdf" "newtab" >}}paper{{< /staticref >}}
 
 
 In July 2015, the U.S. Army announced that Alaska's 4th Airborne Brigade Combat Team of the 25th
