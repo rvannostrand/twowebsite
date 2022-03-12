@@ -19,7 +19,6 @@ The following code can be copied into R and ran as the function "PlanetToNDVI". 
 
 
 
-
 ###**Prelims**
 
 ```r
@@ -32,12 +31,6 @@ library(questionr)
 library(dplyr)
 library(rgdal)
 library(rgeos)
-
-memory.limit(size=100000) #forget everything else you have running
-```
-
-```
-## [1] 1e+05
 ```
 
 ###**Single image example**

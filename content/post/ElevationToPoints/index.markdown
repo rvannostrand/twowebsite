@@ -16,13 +16,11 @@ weight: 4
 ---
 
 
-```{r setup, include = FALSE}
-knitr::opts_chunk$set(eval = FALSE) #this is set not to run just for purposes of marking down to this webpage
-```
+
 
 Prelims
-```{r message=FALSE, warning=FALSE}
 
+```r
 #call packages
 library(sf)
 library(raster)
@@ -34,12 +32,14 @@ library(tmaptools)
 
 # Example
 Read in feature you want to join raster values to
-```{r}
+
+```r
 MaricopaSample<- read_sf("MaricopaSample.shp")
 ```
 
 As an example, consider a sample of Maricopa County properties (as points) and a single USGS 1/3 arc second DEM raster. We can clearly see that DEM tiles are smaller than the study area.
-```{r}
+
+```r
 PointMap1<-#make map
   
     tm_shape(stack("USGS_13_n34w112_20210301.tif"), bbox= bb(MaricopaSample))+
@@ -57,7 +57,8 @@ PointMap1
 
 
 There are actually 8 DEMs that intersect with Maricopa, two of which cover this sample. This makes joining elevation (or any raster information) to properties over a large area difficult. 
-```{r}
+
+```r
 PointMap2<-#make map
   
     tm_shape(stack("USGS_13_n34w112_20210301.tif"), bbox= bb(MaricopaSample))+
@@ -76,7 +77,8 @@ PointMap2
 
 # Join raster with user defined function 
 This function performs a join with many rasters by first mosaicing them together. The output is in the same format as the feature you join to (e.g. point, polygon).
-```{r}
+
+```r
 # 2 inputs: the location of rasters to be mosaiced, and the shapefile (unit of analysis) you want to join raster values to 
 RasterJoin<-function(RasterLocation,UOA){ 
  
@@ -112,36 +114,34 @@ RasterJoin<-function(RasterLocation,UOA){
 
 return(ex)
 }
-
 ```
 
 #### Run RasterJoin Function
-```{r}
+
+```r
 MaricopaElevation<-RasterJoin(RasterLocation= getwd(), #relative working directory, or change "getwd()" to raster folder
                                      UOA= MaricopaSample) # feature we want to join to
-
 ```
 
 #### Export Features
-```{r}
+
+```r
 st_write(MaricopaElevation,#export as shapefile
         #paste(getwd(),"/","MaricopaElevation.shp",sep="")) #send to working directory (change to relevant folder and file name if different)
 
 write.csv(MaricopaElevation, #export as csv
           #paste(getwd(),"/","MaricopaElevation.csv",sep="")) #send to working directory (change to relevant folder and file name if different)
-
 ```
 
 #### Map Example of the Joined Elevation
 
 Note that the variable indicating elevation in the new data is "layer" which you can change to some appropriate heading
-```{r}
 
+```r
 map3<-#make map
     tm_shape(MaricopaElevation)+
     tm_dots(col="layer", palette = "Reds", border.col = NULL, breaks = c(0, 200, 250, 300, 350, 400, 500, Inf), size = 1)
 
 map3
-
 ```
 
