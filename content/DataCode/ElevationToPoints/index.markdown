@@ -15,6 +15,7 @@ title: Function to Extract Elevation
 weight: 4
 ---
 
+In this test case, I downloaded 1/3 arc second DEMs from the USGS NED (in Maricopa), keep them in a folder, wrote a function in R to mosaic whatever is in that folder, then join to properties.
 
 
 
