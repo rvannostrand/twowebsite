@@ -53,6 +53,9 @@ PointMap1<-#make map
 PointMap1
 ```
 
+![alt text here](/post/ElevationToPoints/featured.png)
+
+
 There are actually 8 DEMs that intersect with Maricopa, two of which cover this sample. This makes joining elevation (or any raster information) to properties over a large area difficult. 
 ```{r}
 PointMap2<-#make map
