@@ -53,7 +53,7 @@ PointMap1<-#make map
 PointMap1
 ```
 
-![alt text here](/post/ElevationToPoints/featured.png)
+![alt text here](/post/ElevationToPoints/img1.png)
 
 
 There are actually 8 DEMs that intersect with Maricopa, two of which cover this sample. This makes joining elevation (or any raster information) to properties over a large area difficult. 
@@ -74,6 +74,8 @@ PointMap2<-#make map
 
 PointMap2
 ```
+
+![alt text here](/post/ElevationToPoints/featured.png)
 
 # Join raster with user defined function 
 This function performs a join with many rasters by first mosaicing them together. The output is in the same format as the feature you join to (e.g. point, polygon).
@@ -127,10 +129,10 @@ MaricopaElevation<-RasterJoin(RasterLocation= getwd(), #relative working directo
 
 ```r
 st_write(MaricopaElevation,#export as shapefile
-        #paste(getwd(),"/","MaricopaElevation.shp",sep="")) #send to working directory (change to relevant folder and file name if different)
+        paste(getwd(),"/","MaricopaElevation.shp",sep="")) #send to working directory (change to relevant folder and file name if different)
 
 write.csv(MaricopaElevation, #export as csv
-          #paste(getwd(),"/","MaricopaElevation.csv",sep="")) #send to working directory (change to relevant folder and file name if different)
+          paste(getwd(),"/","MaricopaElevation.csv",sep="")) #send to working directory (change to relevant folder and file name if different)
 ```
 
 #### Map Example of the Joined Elevation
@@ -145,3 +147,4 @@ map3<-#make map
 map3
 ```
 
+![alt text here](/post/ElevationToPoints/img2.png)
