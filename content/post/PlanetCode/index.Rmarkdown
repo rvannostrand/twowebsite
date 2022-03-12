@@ -55,25 +55,28 @@ tm_shape(ndvi) +
 ```{r eval=FALSE, include=TRUE}
 PlanetToNDVI<-function(ImageLocation,FileOutput,ImageDate,AssetType,UOA){
   
+# make list of file names that are rasters. Note to change the pattern argument if rasters are not .tif. Alternatively you can remove the pattern argument if the file location only stores relevant raster files to be mosaiced. 
   current.list <- list.files(path=paste(ImageLocation,ImageDate,"_",AssetType,"_Explorer/files/",  sep =""),
      pattern ="SR_clip.tif$", 
      full.names=TRUE)
 
+# read in raster files as a raster stack
 images<- lapply(current.list, stack)
 
-imageMosaic<-mosaic(images[[1]],images[[2]], fun=mean) # unhash for n number of images in study area. Alternatively write a loop...
-#imageMosaic<-mosaic(imageMosaic,images[[3]], fun=mean)
-#imageMosaic<-mosaic(imageMosaic,images[[4]], fun=mean)
-#imageMosaic<-mosaic(imageMosaic,images[[5]], fun=mean)
-#imageMosaic<-mosaic(imageMosaic,images[[6]], fun=mean)
-#imageMosaic<-mosaic(imageMosaic,images[[7]], fun=mean)
-#imageMosaic<-mosaic(imageMosaic,images[[8]], fun=mean)
-  
+# clear user defined names if present
+names(images) <- NULL 
+
+# this tells the mosaic function to average any overlapping pixels
+raster.list$fun <- mean 
+
+# mosaic list using the mosaic function the raster package
+imageMosaic <- do.call(mosaic, raster.list)
+
+#calculate index
 ndvi <- (imageMosaic[[4]] - imageMosaic[[3]])/(imageMosaic[[4]] + imageMosaic[[3]])
 
 Parcels = read_sf(UOA) #Load in its of analysis shapefile and reproject image coordinate system
 Parcels<-st_transform(Parcels, crs(imageMosaic))
-
 
 ndvi[ndvi < 0.2] <- NA #mask off index below threshold to try and omit roof, driveway etc. Consider deriving threshold from ML algo at some point...
 
