@@ -37,16 +37,16 @@ library(rgeos)
 
 ```r
 PlanetImage<- stack("Data/10_12_2018_PSScene4Band_Explorer/files/20181012_154650_1_104a_3B_AnalyticMS_SR_clip.tif") #Upload 4band Image
-PlanetImage
 
 ndvi <- (PlanetImage[[4]] - PlanetImage[[1]])/(PlanetImage[[4]] + PlanetImage[[1]]) #make NDVI
 
 tmap_mode("view")
 
 tm_shape(ndvi) + 
-  tm_raster() #Plot simple NDVI
+  tm_raster( title = "NDVI")
 ```
 
+![alt text here](/post/ElevationToPoints/img1.png)
 
 ###**Extract Average Index Value by Parcel as Function**
 
