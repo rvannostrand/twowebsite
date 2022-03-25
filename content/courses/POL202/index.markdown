@@ -12,7 +12,7 @@ projects: []
 subtitle: ''
 summary: ''
 tags: []
-title: Environmental Policy 481 (University of Arizona)
+title: Introduction to International Relations (University of Arizona)
 weight: 1
 ---
 
