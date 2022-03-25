@@ -1,9 +1,9 @@
 theme: "starter-hugo-academic"
 
 
-title: Logan Blair # Website name
-baseurl: 'www.logan-blair.com' # Website URL
-copyright: 'Built in R Blogdown, Logan Blair © {year}'
+title: Rachel Van Nostrand # Website name
+baseurl: 'www.rachelvannostrand.com' # Website URL
+copyright: 'Built in R Blogdown, Rachel Van Nostrand © {year}'
 
 ############################
 ## LANGUAGE

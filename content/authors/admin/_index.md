@@ -2,27 +2,28 @@
 bio: My research applies...
 education:
   courses:
-  - course: PhD Candidate in Public Policy
+  - course: PhD Candidate in International Relations
     institution: University of Arizona
     year: 2018 - Current
-  - course: MS Natural Resource Management
-    institution: Central Washington University
-    year: 2015
-  - course: BS in Economics
-    institution: Central Washington University
-    year: 2013
-email: blairlo@email.arizona.edu
+  - course: MA in Government and Public Policy
+    institution: University of Arizona
+    year: 2020
+  - course: BA in Political Science
+    institution: University of Arizona
+    year: 2018
+  - course: BA in French
+    institution: University of Arizona
+    year: 2018
+email: rvannostrand@email.arizona.edu
 highlight_name: true
 interests:
-- Natural Disaster Resilience
-- Environmental Justice
-- Agency Performance
-- Causal Inference
-- Remote Sensing and GIS
+- Human Rights
+- Repression
+- Geographies of Violence
 organizations:
 - name: University of Arizona SGPP
   url: https://sgpp.arizona.edu/
-role: Lecturer and Research Assistant
+role: Graduate Teaching and Research Assistant
 social:
 - icon: envelope
   icon_pack: fas
@@ -32,19 +33,19 @@ social:
   icon: twitter
   icon_pack: fab
   label: Follow me on Twitter
-  link: https://twitter.com/LoganBlair42
+  link: https://twitter.com/rdvannostrand
 - icon: graduation-cap
   icon_pack: fas
-  link: https://scholar.google.com/citations?user=IgwmY5sAAAAJ&hl=en
+  link:
 - icon: github
   icon_pack: fab
-  link: https://github.com/blairlo
+  link: https://github.com/rvannostrand
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/loganblair42
-title: Logan Blair
+  link: https://www.linkedin.com/in/rachel-van-nostrand-05b170b4/
+title: Rachel Van Nostrand
 ---
 
-I am a PhD candidate, researcher, and instructor in the school of Government and Public Policy at the University of Arizona, and previously a consultant at the natural resource consulting firm Northern Economics. My research is broadly focused on natural disaster adaptation and resilience, with a current focus on US hurricane policy and emergency management performance. My work transects the fields of economics, public administration, and physical geography, and often leverages remote sensing and machine learning techniques that you can read more about in my {{< staticref "/research" >}}Research Section{{< /staticref >}}. Outside of work, you can find me hiking, biking, and camping in the Tucson mountains, or cooking (badly) in my trailer-mounted wood fired oven.
+Rachel Van Nostrand is a PhD Candidate in International Relations at the University of Arizona. Her research interests include human rights, repression, and the geography and legacies of violence. Her dissertation focuses on the cross-national study of concentration camp systems. In her free time, she enjoys practicing bass guitar, playing D&D, and hiking. 
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download my CV{{< /staticref >}}.
