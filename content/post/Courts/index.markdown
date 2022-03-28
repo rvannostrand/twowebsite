@@ -1,7 +1,6 @@
 
 ---
 authors:
-- Joseph M. Cox
 - admin
 categories: []
 date: "2021-02-05T00:00:00Z"
@@ -10,15 +9,12 @@ image:
   focal_point: ""
 lastMod: "2021-09-05T00:00:00Z"
 projects: []
-subtitle: ''
+subtitle: ''  
 summary: ''
 tags: []
-title: Wielding the Gavel or Balancing the Scales? Domestic Legal Systems and Post-Conflict Justice
+title: Courts and Concentration Camps - Judicial Constraints on the Use of Repression
 
 weight: 1
 ---
 
-{{< icon name="download" pack="fas" >}} Download this {{< staticref "uploads/cox_vannostrand.pdf" "newtab" >}}paper{{< /staticref >}}
-
-
-Abstract: This study analyzes the institutional variation across domestic legal systems, with a focus on common law system’s adherence to precedent and reduced recourse to judicial deference, as well as on the degree of independence afforded to courts. These institutional qualities of judiciaries provide the opportunity for courts to play a more active role in the implementation of post-conflict justice, increasing uncertainty for other policymakers concerning the ultimate contours of post-conflict justice processes. To reduce such uncertainty, policymakers ensconced in these types of institutional contexts will be less likely to implement post-conflict justice. Using data from the Post-Conflict Justice Dataset, we find that states with common law systems are less likely to pursue and implement post-conflict justice compared to states with civil or Islamic law systems. Moreover, independent courts will be less likely to pursue mixed or restorative forms post-conflict justice, though the impact of judicial independence is weak overall. 
+Abstract: Concentration camp systems are a ubiquitous yet understudied form of repression that have been used across all regime types for more than 100 years. Intended to repress and detain civilians, concentration camp systems can be employed against a variety of different groups including dissidents, refugees, minoritized groups, and “undesirables”. Concentration camp systems can be extrajudicial but are often rooted in new, existing, or modified laws. Courts can either become complicit in this process or can challenge the expansion of the repressive powers of the state. Past work has demonstrated the important role that courts play in the protection of human rights and in promoting transitional justice, particularly through stare decisis and judicial independence. Relying on VDem and a new cross-national dataset of more than 100 concentration camp systems from 1945-2018, I explore whether judiciaries are an effective constraint on the use of concentration camps. I find that decreasing judicial independence and fewer judicial checks on the executive predict more frequent use of concentration camp systems.
