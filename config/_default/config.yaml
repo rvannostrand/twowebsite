@@ -2,7 +2,7 @@ theme: "starter-hugo-academic"
 
 
 title: Rachel Van Nostrand # Website name
-baseurl: 'http://www.rachelvannostrand.com' # Website URL
+baseurl: 'https://www.rachelvannostrand.com' # Website URL
 copyright: 'Built in R Blogdown, Rachel Van Nostrand © {year}'
 
 ############################
