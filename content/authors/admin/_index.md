@@ -23,7 +23,7 @@ interests:
 organizations:
 - name: University of Arizona SGPP
   url: https://sgpp.arizona.edu/
-role: Graduate Teaching and Research Assistant
+role: PhD Candidate
 social:
 - icon: envelope
   icon_pack: fas
