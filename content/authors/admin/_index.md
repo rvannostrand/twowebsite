@@ -19,6 +19,7 @@ highlight_name: true
 interests:
 - Human Rights
 - Repression
+- Transitional Justice
 - Geographies of Violence
 organizations:
 - name: University of Arizona SGPP
@@ -36,7 +37,7 @@ social:
   link: https://twitter.com/rdvannostrand
 - icon: graduation-cap
   icon_pack: fas
-  link:
+  link: https://scholar.google.com/citations?user=E-RCxQsAAAAJ&hl=en&authuser=1
 - icon: github
   icon_pack: fab
   link: https://github.com/rvannostrand
