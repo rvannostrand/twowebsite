@@ -44,7 +44,7 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/rachel-van-nostrand-05b170b4/
-title: Rachel VanNostrand
+title: Rachel          Van Nostrand
 ---
 
 Rachel Van Nostrand is a PhD Candidate in International Relations at the University of Arizona. Her research interests include human rights, repression, and the geography and legacies of violence. Her dissertation focuses on the cross-national study of concentration camp systems. In her free time, she enjoys practicing bass guitar, playing D&D, and hiking. 
