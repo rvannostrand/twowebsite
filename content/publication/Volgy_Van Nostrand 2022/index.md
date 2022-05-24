@@ -7,13 +7,13 @@ author_notes:
 authors:
 - Thomas J. Volgy
 - admin
-date: "2022, forthcoming"
+date: "2023"
 doi: ""
 featured: false
 
 publication: '*Regions, Power, and Conflict: Constrained Capabilities, Hierarchy, and Rivalry*'
 
-publishDate: "Forthcoming 2022"
+publishDate: "2023"
 
 title: "Regions and World Order Preferences"
 url_code: ""
