@@ -18,12 +18,9 @@ projects: []
 subtitle: ''
 summary: ''
 tags: []
-title: Concentration Camp (CCamp) System Data - V.1
+title: CCamp Data - V.1
 
 weight: 1
 ---
 
-{{< icon name="download" pack="fas" >}} Download this {{< staticref "uploads/cox_vannostrand.pdf" "newtab" >}}paper{{< /staticref >}}
 
-
-Abstract: Camps description

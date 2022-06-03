@@ -1,0 +1,28 @@
+active: true
+widget: contact
+headless: true  # This file represents a page section.
+
+# ... Put Your Section Options Here (title etc.) ...
+title: Contact Us
+subtitle: 'Please feel free to reach out to use with questions or concerns you have about the data. If you know of a case we are missing, we encourage you to reach out!'
+weight: 10
+
+content:
+  # Automatically link email and phone or display as text?
+  autolink: true
+
+  # Email form provider
+  form:
+    provider: netlify
+    formspree:
+      id:
+    netlify:
+      # Enable CAPTCHA challenge to reduce spam?
+      captcha: false
+
+  # Contact details (edit or remove options as required)
+  email: ccampdata@gmail.com
+
+design:
+  # Choose how many columns the section has. Valid values: '1' or '2'.
+  columns: '1'
