@@ -2,18 +2,18 @@
 abstract: How much variation is there outside of Europe in support for the liberal world order, and how much has such support changed over time and especially since the end of the Cold War? We explore this question, using UNGA voting data to identify regional (rather than monadic) support and opposition to the liberal world order, and suggest a variety of implications of our findings for conflict and cooperation within and across regions in international politics.
   
 author_notes:
-- Equal contribution
-- Equal contribution
+- University of Arizona
+- University of Arizona
 authors:
 - Thomas J. Volgy
 - admin
-date: "2022-09-01T00:00:00Z"
+date: "2022-06-03T00:00:00Z"
 doi: ""
 featured: false
 
 publication: '*Regions, Power, and Conflict: Constrained Capabilities, Hierarchy, and Rivalry (forthcoming)*'
 
-publishDate: "2022-01-01T00:00:00Z"
+publishDate: "2022-06-03T00:00:00Z"
 
 title: "Regions and World Order Preferences"
 url_code: ""

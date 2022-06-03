@@ -19,6 +19,7 @@ highlight_name: true
 interests:
 - Human Rights
 - Repression
+- Concentration Camps
 - Transitional Justice
 - Geographies of Violence
 organizations:
