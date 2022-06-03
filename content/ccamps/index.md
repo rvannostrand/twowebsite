@@ -1,5 +1,5 @@
 ---
 summary: Concentration Camps Data
-title: "CCamps"
+title: "CCamp"
 type: widget_page
 ---

@@ -15,10 +15,10 @@ content:
   form:
     provider: netlify
     formspree:
-      id:
+      id: https://formspree.io/f/xnqwwegr
     netlify:
       # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
+      captcha: true
 
   # Contact details (edit or remove options as required)
   email: ccampdata@gmail.com
