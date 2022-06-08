@@ -18,7 +18,7 @@ publishDate: "2022-06-03T00:00:00Z"
 title: "Wielding the Gavel or Balancing the Scales? Domestic Legal Systems and Post-Conflict Justice"
 url_code: ""
 url_dataset: ""
-url_pdf: 
+url_pdf: ""
 url_poster: ""
 url_project: ""
 url_slides: ""
