@@ -9,7 +9,7 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 20
 
 title: Data Projects
 subtitle:

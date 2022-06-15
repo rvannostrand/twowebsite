@@ -1,7 +1,7 @@
 ---
 # An instance of the Pages widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-active: false
+active: true
 
 widget: pages
 
@@ -9,16 +9,16 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 30
+weight: 40
 
-title: Professional Report Contributions
+title: Book Chapters
 subtitle:
 
 content:
   # Filter on criteria
   filters:
     folders:
-      - professional
+      - book chapter
     tag: ''
     category: ''
     publication_type: ''
