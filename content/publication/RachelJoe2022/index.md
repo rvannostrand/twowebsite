@@ -8,17 +8,17 @@ authors:
 - Joseph M. Cox
 - admin
 date: "2022-06-03T00:00:00Z"
-doi: ""
-featured: false
+doi: "10.1177/00220027221110581"
+featured: true
 
-publication: '*Journal of Conflict Resolution (forthcoming)*'
+publication: '*Journal of Conflict Resolution*'
 
 publishDate: "2022-06-03T00:00:00Z"
 
 title: "Wielding the Gavel or Balancing the Scales? Domestic Legal Systems and Post-Conflict Justice"
 url_code: ""
 url_dataset: ""
-url_pdf: ""
+url_pdf: "https://journals.sagepub.com/doi/10.1177/00220027221110581"
 url_poster: ""
 url_project: ""
 url_slides: ""
