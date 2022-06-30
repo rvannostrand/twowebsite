@@ -8,7 +8,7 @@ authors:
 - Joseph M. Cox
 - admin
 date: "2022-06-03T00:00:00Z"
-doi: "10.1177/00220027221110581"
+doi: ""
 featured: true
 
 publication: '*Journal of Conflict Resolution*'
