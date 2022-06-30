@@ -9,7 +9,7 @@ authors:
 - admin
 date: "2022-06-03T00:00:00Z"
 doi: ""
-featured: true
+featured: false
 
 publication: '*Journal of Conflict Resolution*'
 
