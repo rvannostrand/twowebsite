@@ -48,8 +48,6 @@ social:
 title: Rachel          Van Nostrand
 ---
 
-Rachel Van Nostrand is a PhD Candidate in International Relations at the University of Arizona. Her research interests at at the intersection of human rights, repression, post-conflict environments, and geographies of violence. Her dissertation focuses on the cross national study concentration camp systems. By creating a novel dataset of concentration camps from 1946-2018, she examines the strategic motivations underlying concentration camp use within states' repertoires of repression. In her free time, she enjoys practicing bass guitar, playing D&D, and hiking. 
+Rachel Van Nostrand is a PhD Candidate in International Relations at the University of Arizona. Her research interests at at the intersection of human rights, repression, post-conflict environments, and geographies of violence. Her dissertation focuses on the cross national study concentration camp systems. By creating a novel dataset of concentration camps from 1946-2018, she examines the strategic motivations underlying concentration camp use within states' repertoires of repression. In her free time, she enjoys practicing bass guitar, playing D&D, hiking, and rock climbing. 
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download my CV{{< /staticref >}}.
-
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume 3 pdf.pdf" "newtab" >}}Download my Résumé{{< /staticref >}}.

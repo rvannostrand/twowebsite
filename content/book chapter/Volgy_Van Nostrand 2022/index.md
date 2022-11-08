@@ -11,14 +11,14 @@ date: "2022-06-03T00:00:00Z"
 doi: ""
 featured: false
 
-publication: '*Regions, Power, and Conflict: Constrained Capabilities, Hierarchy, and Rivalry (forthcoming)*'
+publication: '*Regions, Power, and Conflict: Constrained Capabilities, Hierarchy, and Rivalry*'
 
 publishDate: "2022-06-03T00:00:00Z"
 
 title: "Regions and World Order Preferences"
 url_code: ""
 url_dataset: ""
-url_pdf: https://link.springer.com/book/9789811916809
+url_pdf: https://link.springer.com/content/pdf/10.1007/978-981-19-1681-6_11
 url_poster: ""
 url_project: ""
 url_slides: ""
