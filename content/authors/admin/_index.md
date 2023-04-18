@@ -2,16 +2,16 @@
 bio: My research applies...
 education:
   courses:
-  - course: PhD Candidate in International Relations
+  - course: PhD, International Relations
     institution: University of Arizona
-    year: 2018 - Current
-  - course: MA in Government and Public Policy
+    year: 2023
+  - course: MA, Government and Public Policy
     institution: University of Arizona
     year: 2020
-  - course: BA in Political Science
+  - course: BA, Political Science
     institution: University of Arizona
     year: 2018
-  - course: BA in French
+  - course: BA, French
     institution: University of Arizona
     year: 2018
 email: rvannostrand@email.arizona.edu
@@ -25,7 +25,7 @@ interests:
 organizations:
 - name: University of Arizona SGPP
   url: https://sgpp.arizona.edu/
-role: PhD Candidate
+role: Postdoctoral Researcher
 social:
 - icon: envelope
   icon_pack: fas
@@ -48,6 +48,6 @@ social:
 title: Rachel          Van Nostrand
 ---
 
-Rachel Van Nostrand is a PhD Candidate in International Relations at the University of Arizona. Her research interests at at the intersection of human rights, repression, post-conflict environments, and geographies of violence. Her dissertation focuses on the cross national study concentration camp systems. By creating a novel dataset of concentration camps from 1946-2018, she examines the strategic motivations underlying concentration camp use within states' repertoires of repression. In her free time, she enjoys practicing bass guitar, playing D&D, hiking, and rock climbing. 
+Rachel Van Nostrand is a Postdoctoral Research Associate at the University of Arizona. Her research interests at at the intersection of human rights, repression, post-conflict environments, and geographies of violence. Her dissertation focuses on the cross national study concentration camp systems. By creating a novel dataset of concentration camps from 1946-2018, she examines the strategic motivations underlying concentration camp use within states' repertoires of repression. In her free time, she enjoys practicing bass guitar, playing D&D, hiking, and rock climbing. 
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download my CV{{< /staticref >}}.
