@@ -14,7 +14,7 @@ education:
   - course: BA, French
     institution: University of Arizona
     year: 2018
-email: rvannostrand@email.arizona.edu
+email: rvannostrand@arizona.edu
 highlight_name: true
 interests:
 - Human Rights
@@ -45,9 +45,9 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/rachel-van-nostrand-05b170b4/
-title: Rachel          Van Nostrand
+title: Rachel Van Nostrand
 ---
 
-Rachel Van Nostrand is a Postdoctoral Research Associate at the University of Arizona. Her research interests at at the intersection of human rights, repression, post-conflict environments, and geographies of violence. Her dissertation focuses on the cross national study concentration camp systems. By creating a novel dataset of concentration camps from 1946-2018, she examines the strategic motivations underlying concentration camp use within states' repertoires of repression. In her free time, she enjoys practicing bass guitar, playing D&D, hiking, and rock climbing. 
+Rachel Van Nostrand is a Postdoctoral Research Associate at the University of Arizona. Her research interests lie at the intersection of human rights, repression, post-conflict environments, and geographies of violence. Her dissertation focuses on the cross national study concentration camp systems. By creating a novel dataset of concentration camps from 1946-2018, she examines the strategic motivations underlying concentration camp use within states' repertoires of repression. In her free time, she enjoys practicing bass guitar, playing D&D, hiking, and rock climbing. 
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download my CV{{< /staticref >}}.
