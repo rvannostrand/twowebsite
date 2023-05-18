@@ -22,7 +22,6 @@ title: CCamp Data - V.1
 
 weight: 1
 ---
-#https://rvannostrand.github.io/leaflet/
 
 
  [Check out a map of the data here]()
