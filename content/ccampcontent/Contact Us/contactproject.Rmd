@@ -1,4 +1,4 @@
-active: true
+active: false
 widget: contact
 headless: true  # This file represents a page section.
 

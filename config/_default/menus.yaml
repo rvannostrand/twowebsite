@@ -12,18 +12,20 @@ main:
     url: '/research'
     weight: 20
 
+#Change here
+  - name: CCamps
+    url: '/ccamps'
+    weight: 30
+
   - name: Teaching
     url: '/teaching'
-    weight: 30
+    weight: 40
     
   - name: Contact
     url: '/contact'
-    weight: 40
+    weight: 50
 
-    
-#  - name: CCamps
- #   url: '/ccamps'
-  #  weight: 30
+  
 # - name: Projects
 #    url: '#projects'
  #   weight: 30
