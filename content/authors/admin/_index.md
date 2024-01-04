@@ -19,6 +19,7 @@ highlight_name: true
 interests:
 - Human Rights
 - Repression
+- Conflict
 - Concentration Camps
 - Transitional Justice
 - Geographies of Violence
@@ -48,6 +49,6 @@ social:
 title: Rachel Van Nostrand
 ---
 
-Rachel Van Nostrand is a Postdoctoral Research Associate at the University of Arizona. Her research interests lie at the intersection of human rights, repression, post-conflict environments, and geographies of violence. Her dissertation focuses on the cross national study concentration camp systems. By creating a novel dataset of concentration camps from 1946-2018, she examines the strategic motivations underlying concentration camp use within states' repertoires of repression. In her free time, she enjoys practicing bass guitar, playing D&D, hiking, and rock climbing. 
+Rachel Van Nostrand is a Postdoctoral Research Associate at the University of Arizona, and incoming Assistant Professor of International Relations at Louisiana State University. Her research interests lie at the intersection of human rights, repression, post-conflict environments, and geographies of violence. Her dissertation focuses on the cross national study concentration camp systems. By creating a novel dataset of concentration camps from 1946-2018, she examines the strategic motivations underlying concentration camp use within states' repertoires of repression. In her free time, she enjoys practicing bass guitar, hiking, and rock climbing. 
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download my CV{{< /staticref >}}.
