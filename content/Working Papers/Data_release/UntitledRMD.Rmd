@@ -1,0 +1,21 @@
+---
+authors:
+- admin
+- Alex Braithwaite
+- Daniel Solomon
+categories: []
+date: "2021-02-05T00:00:00Z"
+image:
+  caption: ""
+  focal_point: ""
+lastMod: "2021-09-05T00:00:00Z"
+projects: []
+subtitle: ''  
+summary: ''
+tags: []
+title: The Correlates of Concentrated Cruelty - Government Use of Concentration Camp Systems since 1945
+
+weight: 1
+---
+
+Abstract: Although the Nazi Holocaust provides the most expansive and resonant example of concentration camps in popular commentary and social science research, recent revelations regarding the detention and abuse of migrants on the southern US border and minoritized Uighurs in camps in Xinjiang, China, demonstrate the persistence of this technology of mass violence. We suggest that governments employ camps when they perceive challenges against their authority. We suggest they do so to directly punish minoritized communities they identify as enemies of the state and to scapegoat and terrorize the broader population of whom the targeted individuals are representative.  These actions align with the general perception that the strength of the state is enhanced by the dislocation of societal groupings of “others.” To test the implications of this logic, we introduce original data on 108 camp systems globally between 1946 and 2018.  We regress the use of concentration camps on a series of variables characterizing challenges (interstate war, civil war, genocide) and challengers (ethnic groups, immigrant populations, and territorial contenders) to the state, as well as a range of important control variables. We find that governments in the post-1945 period have used concentration camps most commonly when they are experiencing or have recently experienced civil war. We also find tentative evidence that camps are likely during periods of broader political repression, as well as in countries hosting larger numbers of refugees.
